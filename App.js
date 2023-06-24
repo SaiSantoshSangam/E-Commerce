@@ -30,7 +30,7 @@ const config = {
 export default function App() {
   return (
     <NativeBaseProvider>
-          <NotVerfiyScreen/>
+          <HomeScreen/>
     </NativeBaseProvider>
   );
 }

@@ -4,7 +4,7 @@ import Colors from '../Colors'
 import { MaterialIcons,Ionicons } from '@expo/vector-icons';
 function LoginScreen() {
   return (
-    <Box flex={1} bg= {Colors.black}>
+    <Box flex={1} >
         <Image 
           flex={1}
           alt="logo"  

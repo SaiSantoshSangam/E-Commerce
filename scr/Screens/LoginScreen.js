@@ -1,8 +1,7 @@
 import React from 'react'
 import { Box, Heading, Image, VStack,Input, Button, Pressable,Text } from 'native-base'
 import Colors from '../Colors'
-import { MaterialIcons } from '@expo/vector-icons';
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialIcons,Ionicons } from '@expo/vector-icons';
 function LoginScreen() {
   return (
     <Box flex={1} bg= {Colors.black}>
@@ -65,7 +64,7 @@ function LoginScreen() {
               Login
             </Button>
             <Pressable mt={0} pl={10}>
-              <Text color={Colors.black}>Sing Up</Text>
+              <Text color={Colors.white}>Sing Up</Text>
             </Pressable>
         </Box>
     </Box> 

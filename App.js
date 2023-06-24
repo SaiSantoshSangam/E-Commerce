@@ -16,6 +16,8 @@ import NativeBaseIcon from "./components/NativeBaseIcon";
 import { Platform } from "react-native";
  import LoginScreen from "./scr/Screens/LoginScreen";
  import HomeScreen from "./scr/Screens/HomeScreen"
+import RegisterScreen from "./scr/Screens/RegisterScreen";
+import NotVerfiyScreen from "./scr/Screens/NotVerfiyScreen";
 
 // Define the config
 const config = {
@@ -28,7 +30,7 @@ const config = {
 export default function App() {
   return (
     <NativeBaseProvider>
-          <LoginScreen/>
+          <NotVerfiyScreen/>
     </NativeBaseProvider>
   );
 }

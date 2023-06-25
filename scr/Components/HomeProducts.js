@@ -1,9 +1,25 @@
 import React from 'react'
-import { Text } from 'native-base'
+import { Box, Flex, ScrollView, Text } from 'native-base'
+import pro from '../Data/Products'
+
 function HomeProducts() {
   return (
-        <Text>Products</Text>
-    )
+      <ScrollView flex={1}>
+        <Flex
+        flexWrap={'wrap'}
+        direction='row'
+        justifyContent={'space-between'}
+        px={6}
+        >
+            {
+              pro.map((items)=>(
+                <Text>{items.image}</Text>
+              ))
+            }
+        </Flex>
+
+      </ScrollView>
+    );
 }
 
 export default HomeProducts

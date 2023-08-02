@@ -14,7 +14,7 @@ function ButtonShape(mt,bg,color,children,onPress) {
       fontWeight:"bold",
      }}
      _pressed={{bg:bg}}
-     Onprees={onPress}
+     Onpress={onPress}
      >
       {children}
 

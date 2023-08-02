@@ -17,12 +17,17 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.10.2",
     "@expo/webpack-config": "^18.0.1",
     "@react-navigation/material-bottom-tabs": "^6.2.15",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
+    "clean-webpack-plugin": "^4.0.0",
     "expo": "^48.0.0",
     "expo-status-bar": "~1.4.4",
+    "expo-updates": "~0.16.4",
+    "json-loader": "^0.5.7",
     "native-base": "3.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -36,10 +41,14 @@
     "react-native-swipe-list-view": "^3.2.9",
     "react-native-tab-view": "^3.5.1",
     "react-native-vector-icons": "^9.2.0",
-    "react-native-web": "~0.18.11"
+    "react-native-web": "~0.18.10",
+    "react-native-webpack": "^0.1.1",
+    "webpack": "^5.88.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "babel-plugin-react-native-web": "^0.19.6",
+    "webpack-dev-server": "^4.15.1"
   },
   "bugs": {
     "url": "https://github.com/GeekyAnts/nativebase-templates/issues"

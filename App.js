@@ -1,4 +1,6 @@
 import React from "react";
+import {Box, Text, Input,button} from 'native-base'
+
 import {
   NativeBaseProvider,
    
@@ -16,13 +18,15 @@ const config = {
   initialColorMode: "dark",
 };
 
-
-
 export default function App() {
+  const [image,setimage] =  useState("");
   return (
-    <NativeBaseProvider>
-          <HomeScreen/>
-    </NativeBaseProvider>
+   <NativeBaseProvider>
+         <HomeScreen/> 
+    
+  </NativeBaseProvider>
+     
+   
   );
 }
 

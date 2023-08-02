@@ -9,11 +9,11 @@ function HomeProducts() {
         flexWrap={'wrap'}
         direction='row'
         justifyContent={'space-between'}
-        px={6}
+        px={5}
         >
             {
               pro.map((items)=>(
-                <Text>{items.image}</Text>
+                <Text> {items.image} </Text>  
               ))
             }
         </Flex>

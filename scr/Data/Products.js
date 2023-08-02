@@ -1,4 +1,4 @@
- const pro=[
+ const pro=Array.from([
         
     {
         _id : "1",
@@ -6,7 +6,7 @@
         image:"./1.jpeg",
         description:"Brand New NIKE shoes for Mens ",
         price:"$99",
-        countInStock:5,
+        countInStock:5, 
         rating:4.5/5,
         numReviews:20,
     },
@@ -26,7 +26,7 @@
 
     {
         _id : "3",
-        name :"Nike for Mens (yello) ",
+        name :"Nike for Mens (yellow) ",
         image:"./3.jpeg",
         description:"Brand New NIKE shoes for Mens ",
         price:"$99",
@@ -62,7 +62,7 @@
 
     {
         _id : "6",
-        name :"Bata for Mens ( Skyblue) ",
+        name :"Bata for Mens ( sky-blue) ",
         image:"./4.jpeg",
         description:"Brand New BATA shoes for Mens ",
         price:"$59",
@@ -72,5 +72,5 @@
     },
     
 
-];
+]);
 export default pro
